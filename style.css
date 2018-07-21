@@ -86,7 +86,11 @@ font-size: 1.2rem;
         .content{
 
     margin: 0;
+    width: 100%;
 
           
         }
+        .qoute{
+            margin-top:17%;
+            }
     }
