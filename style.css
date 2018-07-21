@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: acme;
+    color: aliceblue;
+    /* font-size: 20px; */
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:flex-start;
+align-items: center;
+/* flex-direction: column; */
+}
+
+.content{
+    height: 70vh;
+    width: 50vh;
+    /* border: solid; */
+    background-color: none;
+     margin-left: 10%;
+margin-top:5%; 
+display: flex;
+/* justify-content: center; */
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+background: rgba(18, 45, 80, 0.6);
+border-radius: 70px;
+box-shadow: -2px 2px 125px -19px rgba(17,16,38,1);
+padding: 15px;
+
+    
+}
+.name{
+
+    font-family: cairo;
+}
+.content:hover{
+    background: rgba(18, 45, 80, 0.5);
+
+}
+.myImage{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+border: none;
+    filter: grayscale(0.2);
+}
+.skygeeks{
+    align-self: flex-end;
+    margin-right: 5%;
+    /* display: block; */
+}
+
+
+.qoute{
+margin-top:20%;
+}
+.fab{
+font-size: 1.2rem;
+}
+.fab:hover{
+    font-size: 1.2rem;
+    opacity: 0.5;
+    }
+    
+
+    @media (max-width: 600px) {
+
+
+        body{
+            background-image: url("background.jpg");
+            background-size: cover;
+        height: 100vh;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        }
+        .content{
+
+    margin: 0;
+
+          
+        }
+    }
